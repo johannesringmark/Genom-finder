@@ -1,0 +1,20 @@
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="build/client.js"></script>
+
+</head>
+<body>
+<input type="file" id="files" name="file" />	
+<script>
+			$(function() {
+				 app = new App();
+				app.init();
+			})		
+</script>
+<button name = "test1" onclick="app.setFile()"></button>
+<button id = 'submit'>Compare</button>
+<progress id="progressbar" value="0" max="900000"></progress> 
+<!-- <button id = 'clock'>...</button> -->
+<hr>
+<div id="labelMarkers"><div>
+</body>

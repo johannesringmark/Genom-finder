@@ -1,0 +1,23 @@
+{
+  "name": "Genom-finder",
+  "description": "none",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "lib/client.js",
+  "dependencies": {
+    "q": "1.0.x",
+    "indexeddbstore": "git://github.com/datx02/data-storage.git#master"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "devDependencies": {
+    "browserify": "~3.0",
+    "gulp-util": "~2.2.14",
+    "gulp": "~3.5.1",
+    "gulp-browserify": "~0.4.2",
+    "gulp-watch": "~0.5.0",
+    "gulp-clean": "~0.2.4",
+    "gulp-concat": "~2.1.7"
+  }
+}
