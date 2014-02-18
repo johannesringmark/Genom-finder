@@ -4,17 +4,35 @@
 
 </head>
 <body>
-<input type="file" id="files" name="file" />	
+	
 <script>
 			$(function() {
 				 app = new App();
 				app.init();
 			})		
 </script>
-<button name = "test1" onclick="app.setFile()"></button>
-<button id = 'submit'>Compare</button>
+<h1>SNPs/Genom Sandbox</h1>
+This application aims to make it easier, when comparaing snps based gene results against the markers and trees on the cotained on the ISSOG home page.
+<br>
+example: 
+<hr>
+<button id = 'submit'>Find Mutations</button>
+<button id = 'submit2'>Find Happlogroups</button>
 <progress id="progressbar" value="0" max="900000"></progress> 
+<input type="file" id="files" name="file" />
 <!-- <button id = 'clock'>...</button> -->
 <hr>
+<ul>
+<li>Choose File "genom_test.txt"</li>
+<li>Choose File "test.db23"</li>
+<li>Press "Find Mutations"</li>
+<li>Save Mutations in a new document ex "test.mut23"</li>
+<li>Choose File "test.mut23"</li>
+<li>Choose File "ISSOG.tree23"</li>
+<li>Press "Find Haplogroup"</li>
+<li>Possible Haplogroups is listed..</li>
+</ul>
+<hr>
+
 <div id="labelMarkers"><div>
 </body>
