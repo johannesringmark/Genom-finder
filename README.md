@@ -1,4 +1,7 @@
-Genome-Finder Scripts (No Longer Maintained)
-============
+# Genome-Finder Scripts (Archived)
 
-Around 2015, 23AndMe's (static) haplogroup definitions weren't kept up to date with  ISSOG's constantly updated definitions; a curiosity grew as to whether a more accurate haplogroup could be inferred, and as a result,  this project came to see the light. It is a very quickly thrown-together checker for ISOGG markers written in Javascript, nothing fancy. Given your genetic data, in the form of a 23AndMe file,  the idea was that this set of "tools" will help you both to fetch data from the official ISOGGs homepage and to map it against the SNPs in your raw 23andMe file. 
+**ISOGG haplogroup checker for 23andMe (circa 2015).**  
+A quick-and-dirty JavaScript tool that fetches ISOGG haplogroup marker definitions and compares them to SNPs in a 23andMe raw data file, suggesting a more up-to-date haplogroup than 23andMe’s static labels at the time.
+
+> **Status:** No longer maintained.  
+> **Privacy:** Runs locally; don’t upload your raw data anywhere you don’t trust.
